@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Error</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe5e5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .error-box {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+      text-align: center;
+    }
+    h1 {
+      color: red;
+    }
+    p {
+      margin: 15px 0;
+      color: #333;
+    }
+    .back-button {
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .back-button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-box">
+    <h1>Login Failed</h1>
+    <p>Oops! Incorrect username or password.</p>
+    <a href="/login" class="back-button">Try Again</a>
+  </div>
+</body>
+</html>
